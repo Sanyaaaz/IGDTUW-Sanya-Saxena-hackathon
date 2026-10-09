@@ -1,0 +1,17 @@
+{
+  "energy_geopolitical": {
+    "match": ["geopolitical", "oil", "energy", "shipping", "supply disruption"],
+    "nodes": [["EVENT", "{event}"], ["MACRO FACTOR", "Energy supply / oil price"], ["SECTOR", "Energy, transport and materials"], ["ASSET", "Energy-linked holdings and duration-sensitive assets"]],
+    "edges": ["CAUSES", "INCREASES", "EXPOSES"]
+  },
+  "credit": {
+    "match": ["credit", "bank", "default", "provision"],
+    "nodes": [["EVENT", "{event}"], ["MACRO FACTOR", "Credit spreads / default risk"], ["SECTOR", "Financials and corporate credit"], ["ASSET", "Corporate loans and credit bonds"]],
+    "edges": ["INCREASES", "PROPAGATES TO", "EXPOSES"]
+  },
+  "generic": {
+    "match": [],
+    "nodes": [["EVENT", "{event}"], ["MACRO FACTOR", "{event_type}"], ["SECTOR", "{sector}"], ["ASSET", "Mapped portfolio exposures"]],
+    "edges": ["CAUSES", "AFFECTS", "EXPOSES"]
+  }
+}

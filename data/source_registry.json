@@ -1,0 +1,9 @@
+{
+  "Reuters": {"type": "financial_news", "weight": 0.90},
+  "Bloomberg": {"type": "financial_news", "weight": 0.95},
+  "GDELT": {"type": "news", "weight": 0.65},
+  "RSS feed": {"type": "unknown", "weight": 0.50},
+  "Analyst submission": {"type": "analyst_input", "weight": 0.70},
+  "Synthetic news sample": {"type": "synthetic", "weight": 0.0},
+  "Synthetic social post": {"type": "synthetic", "weight": 0.0}
+}

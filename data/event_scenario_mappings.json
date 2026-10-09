@@ -1,0 +1,7 @@
+{
+  "geopolitical_energy": {"match": ["geopolitical", "oil", "energy", "shipping"], "id": "event-energy", "name": "Event-implied energy supply shock", "rate_shock_bps": 50, "spread_shock_bps": 100, "equity_shock_pct": -0.10, "energy_shock_pct": 0.20, "pd_multiplier": 1.35},
+  "credit": {"match": ["credit"], "id": "event-credit", "name": "Event-implied credit deterioration", "rate_shock_bps": 0, "spread_shock_bps": 200, "equity_shock_pct": -0.08, "energy_shock_pct": 0.0, "pd_multiplier": 1.8},
+  "monetary_policy": {"match": ["monetary_policy", "interest rate", "rate hike", "federal reserve"], "id": "event-macro", "name": "Event-implied rate repricing", "rate_shock_bps": 50, "spread_shock_bps": 25, "equity_shock_pct": -0.04, "energy_shock_pct": 0.0, "pd_multiplier": 1.1},
+  "macro": {"match": ["macro", "earnings"], "id": "event-macro", "name": "Event-implied macro slowdown", "rate_shock_bps": -25, "spread_shock_bps": 150, "equity_shock_pct": -0.14, "energy_shock_pct": -0.05, "pd_multiplier": 1.5},
+  "generic": {"match": [], "id": "event-generic", "name": "Event-implied broad risk shock", "rate_shock_bps": 25, "spread_shock_bps": 100, "equity_shock_pct": -0.10, "energy_shock_pct": 0.0, "pd_multiplier": 1.4}
+}

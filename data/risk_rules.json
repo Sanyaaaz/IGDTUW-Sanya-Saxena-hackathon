@@ -1,0 +1,13 @@
+{
+  "cluster_threshold": 0.34,
+  "impact_adjustments": {
+    "sentiment_weight": 1.5,
+    "sentiment_reference": 0.5,
+    "exposure_weight": 2.0,
+    "exposure_reference": 0.15
+  },
+  "minimum_alert_impact": 7,
+  "minimum_alert_confidence": 0.40,
+  "current_window_anomaly_min_events": 3,
+  "propagation_version": "rule-map-v1"
+}

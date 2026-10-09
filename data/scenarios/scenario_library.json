@@ -1,0 +1,6 @@
+[
+  {"id":"geo-energy","name":"Geopolitical energy disruption","trigger_threshold":7,"rate_shock_bps":50,"spread_shock_bps":125,"equity_shock_pct":-0.12,"energy_shock_pct":0.18,"pd_multiplier":1.35,"illustrative":true},
+  {"id":"macro-slowdown","name":"Macroeconomic slowdown","trigger_threshold":7,"rate_shock_bps":-25,"spread_shock_bps":175,"equity_shock_pct":-0.18,"energy_shock_pct":-0.08,"pd_multiplier":1.6,"illustrative":true},
+  {"id":"rates-up","name":"Interest-rate shock","trigger_threshold":6,"rate_shock_bps":200,"spread_shock_bps":40,"equity_shock_pct":-0.04,"energy_shock_pct":0,"pd_multiplier":1.1,"illustrative":true},
+  {"id":"credit-down","name":"Credit deterioration","trigger_threshold":7,"rate_shock_bps":0,"spread_shock_bps":250,"equity_shock_pct":-0.07,"energy_shock_pct":0,"pd_multiplier":2.0,"illustrative":true}
+]

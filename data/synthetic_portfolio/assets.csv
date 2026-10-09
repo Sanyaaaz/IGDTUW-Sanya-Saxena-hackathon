@@ -1,0 +1,9 @@
+asset_id,name,asset_type,issuer,sector,currency,market_value_usd,duration_years,probability_of_default,loss_given_default,equity_beta,spread_duration_years
+A-101,Northstar Bank senior loan,Corporate loan,Northstar Bank,Financials,INR,125000000,3.2,0.025,0.45,0,3.2
+A-102,Acme Cloud term loan,Corporate loan,Acme Cloud,Technology,INR,90000000,2.8,0.018,0.40,0,2.8
+A-103,US Treasury 10Y,Government bond,United States,Sovereign,INR,160000000,7.4,0.001,0.10,0,0
+A-104,European infrastructure bond,Corporate bond,EuroGrid,Utilities,INR,105000000,5.1,0.012,0.35,0,5.1
+A-105,Global equity basket,Equity,Diversified,Equities,INR,110000000,0,0,0,1,0
+A-106,Energy index swap,Derivative,Energy index,Energy,INR,45000000,0,0,0,0.55,0
+A-107,Solaris project finance,Corporate loan,Solaris Energy,Energy,INR,80000000,4.0,0.022,0.42,0,4.0
+A-108,Investment grade credit fund,Corporate bond,Diversified,Credit,INR,135000000,4.6,0.010,0.35,0,4.6

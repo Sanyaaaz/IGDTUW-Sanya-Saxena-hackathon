@@ -1,0 +1,35 @@
+{
+  "factors": {
+    "CRUDE_OIL": {"unit":"percent","label":"Crude oil"},
+    "INTEREST_RATES": {"unit":"bps","label":"Interest rates"},
+    "INFLATION": {"unit":"percent","label":"Inflation"},
+    "CREDIT_SPREADS": {"unit":"bps","label":"Credit spreads"},
+    "USD": {"unit":"percent","label":"US dollar"},
+    "EQUITY_VOLATILITY": {"unit":"percent","label":"Equity volatility"},
+    "GOLD": {"unit":"percent","label":"Gold"},
+    "SUPPLY_CHAIN": {"unit":"percent","label":"Supply chain costs"},
+    "ENERGY_COST": {"unit":"percent","label":"Energy costs"},
+    "CONSUMER_DEMAND": {"unit":"percent","label":"Consumer demand"}
+  },
+  "asset_sensitivities": {
+    "Airline Corp": {"CRUDE_OIL":-0.80,"CONSUMER_DEMAND":0.50,"SUPPLY_CHAIN":-0.20},
+    "Energy index": {"CRUDE_OIL":0.75,"INFLATION":0.10,"EQUITY_VOLATILITY":-0.10},
+    "Solaris Energy": {"CRUDE_OIL":0.20,"ENERGY_COST":-0.25,"SUPPLY_CHAIN":-0.20},
+    "US Treasury 10Y": {"INTEREST_RATES":-7.4,"INFLATION":-0.03,"EQUITY_VOLATILITY":0.05},
+    "United States": {"INTEREST_RATES":-7.4,"INFLATION":-0.03,"EQUITY_VOLATILITY":0.05},
+    "Long Duration Bond Fund": {"INTEREST_RATES":-9.0,"CREDIT_SPREADS":-4.0},
+    "Northstar Bank": {"INTEREST_RATES":0.30,"CREDIT_SPREADS":-0.70,"CONSUMER_DEMAND":0.15},
+    "default_bond": {"INTEREST_RATES":-4.0,"CREDIT_SPREADS":-0.50},
+    "default_loan": {"INTEREST_RATES":-2.0,"CREDIT_SPREADS":-0.45},
+    "default_equity": {"EQUITY_VOLATILITY":-0.20,"CONSUMER_DEMAND":0.30},
+    "default": {"EQUITY_VOLATILITY":-0.15}
+  },
+  "event_shocks": {
+    "oil_supply": {"CRUDE_OIL":25,"INFLATION":0.8,"INTEREST_RATES":40,"CREDIT_SPREADS":75,"EQUITY_VOLATILITY":15,"SUPPLY_CHAIN":12,"ENERGY_COST":18},
+    "monetary_policy": {"INTEREST_RATES":50,"CREDIT_SPREADS":20,"EQUITY_VOLATILITY":5},
+    "geopolitical": {"CRUDE_OIL":20,"EQUITY_VOLATILITY":15,"INFLATION":0.5,"CREDIT_SPREADS":50,"SUPPLY_CHAIN":10},
+    "credit": {"CREDIT_SPREADS":100,"EQUITY_VOLATILITY":8},
+    "generic": {"EQUITY_VOLATILITY":5,"CREDIT_SPREADS":25}
+  },
+  "severity_multipliers": {"MILD":0.5,"BASE":1.0,"SEVERE":1.6}
+}

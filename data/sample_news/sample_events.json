@@ -1,0 +1,5 @@
+[
+  {"title":"Red Sea shipping disruption lifts freight and energy risk","source":"Synthetic news sample","entity":"Maersk","event_type":"Geopolitical","sentiment":-0.71,"impact":8,"synthetic_or_sample":true},
+  {"title":"Central bank signals rates may stay higher for longer","source":"Synthetic news sample","entity":"Federal Reserve","event_type":"Macroeconomic","sentiment":-0.28,"impact":7,"synthetic_or_sample":true},
+  {"title":"Northstar Bank reports wider provisions on commercial property loans","source":"Synthetic news sample","entity":"Northstar Bank","event_type":"Credit Event","sentiment":-0.58,"impact":8,"synthetic_or_sample":true}
+]

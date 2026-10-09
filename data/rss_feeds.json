@@ -1,0 +1,5 @@
+[
+  {"name":"BBC Business RSS","url":"https://feeds.bbci.co.uk/news/business/rss.xml"},
+  {"name":"NPR Business RSS","url":"https://feeds.npr.org/1006/rss.xml"},
+  {"name":"The Guardian Business RSS","url":"https://www.theguardian.com/business/rss"}
+]
